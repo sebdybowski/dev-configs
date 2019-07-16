@@ -1,7 +1,7 @@
 function gsubmit(){
 	git add -A
 	git commit -m "$1"
-	git push origin HEAD
+	git push origin HEAD $2
 }
 
 function gcommit(){
